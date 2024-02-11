@@ -1,29 +1,29 @@
 {
-  "name": "money-cahmber",
-  "version": "0.1.0",
-  "private": true,
+  "name": "money-chamber",
+  "version": "1.0.0",
+  "description": "",
   "scripts": {
-    "dev": "next dev",
-    "lint:check": "prettier --check .",
-    "lint:fix": "prettier --write .",
-    "test": "jest",
-    "test:watch": "jest --watch"
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.4.17",
+    "daisyui": "^4.6.2",
+    "postcss": "^8.4.33",
+    "solid-devtools": "^0.29.2",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.11",
+    "vite-plugin-solid": "^2.8.2"
   },
   "dependencies": {
-    "next": "14.1.0",
-    "react": "^18",
-    "react-dom": "^18"
-  },
-  "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "autoprefixer": "^10.0.1",
-    "daisyui": "^4.6.2",
+    "@solidjs/router": "^0.10.10",
     "jest": "^29.7.0",
-    "postcss": "^8",
     "prettier": "^3.2.5",
-    "tailwindcss": "^3.3.0",
-    "typescript": "^5"
+    "solid-js": "^1.8.11"
   }
 }
